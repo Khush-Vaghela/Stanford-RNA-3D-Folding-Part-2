@@ -8,7 +8,6 @@ An end-to-end, **fully offline** pipeline for predicting the 3D structure of RNA
 
 | Version | Public | Private | Full-run time |
 |---|---|---|---|
-| Earlier pipeline (one structure repeated in all five slots, binary 2D gate, fixed length threshold) | 0.27193 | 0.35099 | 5 h 42 m |
 | This pipeline | 0.30172 | 0.38491 | 3 h 52 m |
 
 Both scores moved in the same direction (+0.030 public, +0.034 private), but the changes were evaluated together in a single run, so the table does not attribute the gain to individual components.
